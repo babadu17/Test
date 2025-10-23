@@ -1,0 +1,10 @@
+div {
+    background-color: lightblue;
+    align-items: center;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
