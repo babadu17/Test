@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Photo</title>
+    <link rel ="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <img src="{{ url_for('photo', filename='IMG_0593.jpg') }}" alt="eloise">
+    <div>
+        <img src="static/eloise.jpg">
+        <img src="static/nala.jpg">
+        <img src="static/rambo.jpg">
+        <img src="static/nala cacher.jpg">
+        <img src="static/nala qui boude.jpg">
+        <img src="static/nala dans son amaque.jpg">
+    </div>
 </body>
 </html>
